@@ -27,6 +27,9 @@ public class Calculate {
 		return("(WholeNumber*Denominator+Numerator)/Denominator");
 		
 	}
+	public static String toMixedNum(int Numerator, int Denominator){
 		
 	}
+		
 	
+}

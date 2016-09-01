@@ -23,10 +23,8 @@ public class Calculate {
 	public static double discriminant(double a, double b, double c){
 		return (b*b-4*a*c);
 	}
-	public static String toImproperFrac(int WholeNumber, int Numerator, int Denominator){
-		return("(WholeNumber*Denominator+Numerator)/Denominator");
-		
+	public static int toImproperFrac(int Numerator, int WholeNumber, int Denominator){
+		return ((WholeNumber*Denominator+Numerator)/Denominator);
 	}
-		
-	}
-	
+
+}
