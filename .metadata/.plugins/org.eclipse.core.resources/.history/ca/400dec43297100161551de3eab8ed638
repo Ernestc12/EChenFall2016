@@ -27,18 +27,6 @@ public class Calculate {
 		int ImproperNum = WholeNumber*Denominator+Numerator;
 		return(ImproperNum + "/" + Denominator);
 	}
-	public static String toMixedNum(int Improp, int Denominator){
-		int Numerator = (Improp % Denominator);
-		int WholeNum = (Improp / Denominator);
-		return (WholeNum + "_" + Numerator + "/" + Denominator);
-	}
-	public static String foil(int a, int b, int c, int d, String n){
-		int first = a*c;
-		int second = a*d + b*c;
-		int third = b*d;
-		return (first + ("n^2+") + second + "n" + third);
-	}
-	
 		
-}
+	}
 	

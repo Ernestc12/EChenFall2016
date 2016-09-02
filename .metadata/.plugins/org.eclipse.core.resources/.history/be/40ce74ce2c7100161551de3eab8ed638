@@ -36,7 +36,7 @@ public class Calculate {
 		int first = a*c;
 		int second = a*d + b*c;
 		int third = b*d;
-		return (first + ("n^2+") + second + "n" + third);
+		return (first + ("n^2") + second + "n" + third);
 	}
 	
 		
