@@ -38,7 +38,29 @@ public class Calculate {
 		int third = b*d;
 		return (first + ("n^2+") + second + "n" + third);
 	}
-	
+	public static int isDivisibleBy(int Num1, int Num2){
+		if (Num1 % Num2 ==0);
+		return (Num1/Num2);
+	}
+	public static double absValue(double Num1){
+		return (Math.abs(Num1));
+	}
+	public static int max(int Num1, int Num2){
+		return (Math.max(Num1, Num2));
+	}
+	public static double max(double Num1, double Num2, double Num3){
+		 return (Math.max(Num1, Math.max(Num2, Num3)));
+	}
+	public static int min(int Num1, int Num2){
+		return (Math.min(Num1, Num2));
+	}
+	public static double round2(double num1) {
+		double roundedNum = (int) num1*100;
+		roundedNum = roundedNum + 0.5;
+		return (roundedNum/100);
+		// TODO Auto-generated method stub
 		
+	}
+	
 }
 	

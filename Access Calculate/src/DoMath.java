@@ -7,6 +7,8 @@ public class DoMath {
 		Calculate.toMixedNum(7, 2);
 		Calculate.foil(2, 3, 6, 7, "n");
 		System.out.println(Calculate.foil(2, 3, 6, -7, "n"));
+		Calculate.absValue(-11);
+		System.out.println(Calculate.absValue(-11));
 		// TODO Auto-generated method stub
 
 	}
