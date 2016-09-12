@@ -36,9 +36,48 @@ public class Calculate {
 		int first = a*c;
 		int second = a*d + b*c;
 		int third = b*d;
-		return (first + ("n^2") + second + "n" + third);
+		return (first + ("n^2+") + second + "n" + third);
 	}
-	
+	public static int isDivisibleBy(int Num1, int Num2){
+		if (Num1 % Num2 ==0);
+		return (Num1/Num2);
+	}
+	public static double absValue(double Num1){
+		if(Num1 < 0){
+			return(Num1 * -1);
+		}else{
+			return(Num1);
+		}
+	}
+	public static int max(int Num1, int Num2){
+		if(Num1 > Num2){
+			return(Num1);
+		}else{
+			return(Num2);
+		}
+	}
+	public static int min(int Num1, int Num2){
+		if(Num1 < Num2){
+		return (Num1);
+		}
+		else{
+			return(Num2);
+		}
+	}
+	public static double round2(double num1) {
+		double roundedNum = (int) num1*100;
+		roundedNum = roundedNum + 0.005;
+		return (roundedNum/100);
+		// TODO Auto-generated method stub
+	}
+	public static double exponent(int Num1, double Num2){
+		double answer = 1;
+		for(int i = 1; i <= Num1; i++){
+			answer *= Num2;
+		}
+		return(answer);
+	}
+	public static int factorial(int Num1){
 		
+	}
 }
-	

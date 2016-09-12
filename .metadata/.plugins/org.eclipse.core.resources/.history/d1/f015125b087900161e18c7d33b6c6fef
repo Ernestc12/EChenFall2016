@@ -12,7 +12,7 @@ public class DoMath {
 		Calculate.exponent(7,3);
 		System.out.println(Calculate.exponent(7, 3));
 		Calculate.factorial(4);
-		System.out.println(Calculate.factorial(5));
+		System.out.println(Calculate.factorial(4));
 		// TODO Auto-generated method stub
 
 	}

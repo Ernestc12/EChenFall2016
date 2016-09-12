@@ -77,18 +77,5 @@ public class Calculate {
 		}
 		return(answer);
 	}
-	public static int factorial(int Num1){
-		int answer = 1;
-		for(int i = 1; i <= Num1; i++){
-		answer *= i;
-		}
-		return(answer);
-	}
-	public static boolean isPrime(int Num1){
-		int Num2;
-		Calculate.isDivisibleBy(Num1, Num2);
-		return(
-	}
 }
-
 	
