@@ -38,9 +38,8 @@ public class Calculate {
 		int third = b*d;
 		return (first + ("n^2+") + second + "n" + third);
 	}
-	public static int isDivisibleBy(int Num1, int Num2){
-		if (Num1 % Num2 ==0);
-		return (Num1/Num2);
+	public static boolean isDivisibleBy(int Num1, int Num2){
+		return (Num1 % Num2 ==0);
 	}
 	public static double absValue(double Num1){
 		if(Num1 < 0){
@@ -65,9 +64,10 @@ public class Calculate {
 		}
 	}
 	public static double round2(double num1) {
-		double roundedNum = (int) num1*100;
-		roundedNum = roundedNum + 0.005;
-		return (roundedNum/100);
+		num1 = num1 * 100;
+		num1 += .5;
+		num1 = (int)num1;
+		return (num1/100);
 		// TODO Auto-generated method stub
 	}
 	public static double exponent(int Num2, double Num1){
@@ -85,10 +85,21 @@ public class Calculate {
 		return(answer);
 	}
 	public static boolean isPrime(int Num1){
-		int Num2;
-		Calculate.isDivisibleBy(Num1, Num2);
-		return(
+		boolean check;
+		for (int k = Num1 - 1; k > 1; k--){
+			check = Calculate.isDivisibleBy(Num1, k);
+			if(check == true){
+				return(false);
+			}
+			
+		}
+		return(true);
 	}
+	public static int gcf(int num1, int num2){
+		
+	}
+	
+	
 }
 
 	
